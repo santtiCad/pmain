@@ -1,0 +1,131 @@
+h1 {
+    color: #F2F2F2;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.navbar {
+   text-align: center;
+    left: 0% !important;
+    right: 30% !important;
+
+}
+
+/* Fondo general */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    font-family: sans-serif;
+    background: linear-gradient(#448f7a, #F2F2F2 ) !important;
+    color: #F2F2F2;
+}
+
+/* Formulario */
+form { 
+    border: 2px solid #659DBF; 
+    padding: 5px 25px; 
+    background-color: antiquewhite !important;
+    border-radius: 20px; 
+}
+
+/* Inputs */
+input {
+    width: 75%;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: 2px solid #659DBF;
+    border-radius: 15px; 
+    outline: none;
+}
+
+/* Botón */
+button {
+    margin: 5px auto;
+    background-color: antiquewhite !important;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: antiquewhite !important;
+}
+
+/* Footer */
+footer {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite !important;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Íconos */
+footer li {
+    display: inline-block;
+    list-style: none;
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+/* ====== FORM AGENDAMIENTO ====== */
+
+.agenda-form {
+    border: 2px solid #659DBF;
+    padding: 10px 20px;
+    background-color:#448f7a !important; /* Fondo del formulario del agendar cita, color verde y bone */
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+/* cada campo ordenado */
+.agenda-form .campo {
+    margin-bottom: 10px;
+}
+
+/* labels */
+.agenda-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #F2F2F2;
+}
+
+/* inputs SOLO dentro de agendamiento */
+.agenda-form input,
+.agenda-form select,
+.agenda-form textarea {
+    width: 75%;
+    padding: 5px;
+    border: 2px solid #659DBF;
+    border-radius: 15px;
+    outline: none;
+    background-color: #F2F2F2;
+}
+
+/* botón SOLO de agendamiento */
+.agenda-form button {
+    margin-top: 5px;
+    background-color:#448f7a !important;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.agenda-form button:hover {
+    background-color: #448f7a !important;
+}

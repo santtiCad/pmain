@@ -1,0 +1,34 @@
+.navbar {
+   background-color: #4eecd7 !important; /* Blanco puro */
+    z-index: 1050 !important;
+    height: auto !important; /* Quita el 150px para que no se vea gigante y vacío */
+    padding: 20px 0 ;
+}
+
+.nav-link {
+    color: #070000 !important; /* Color verde de la referencia */
+   
+    
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.btn-success {
+    background-color: #c5ccca !important;
+    border: none;
+}
+.card-body{
+    background-color: #448f7a !important;
+    border: none;
+}
+
+/* Ajuste para que el h1 no quede pegado al header fijo */
+body {
+    background-color: antiquewhite !important;
+    
+}
+.carousel-item {
+    height: 550px; /* Ajusta la altura según tus necesidades */
+}
