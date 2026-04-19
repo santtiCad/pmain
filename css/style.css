@@ -1,33 +1,49 @@
 .navbar {
-   background-color: #4eecd7 !important; /* Blanco puro */
+   background-color: #448f7a !important; /* Blanco puro */
     z-index: 10 !important; /* Asegura que el navbar esté por encima de otros elementos */
     height: 150px !important; /* Quita el 150px para que no se vea gigante y vacío */
     padding: 25px 0 ;
 }
 
 .nav-link {
-    color: #070000 !important; /* Color verde de la referencia */
+    color: #448f7a !important; /* Color verde de la referencia */
    
     
 }
-
 .nav-link:hover {
-    text-decoration: underline !important; /* Subrayado al pasar el mouse */
+
+    color: #448f7a !important; /* Color verde de la referencia */
+    border-radius: 10px;
+    border: 2px solid #659DBF;
 }
+.card {
+    border-radius: 25px !important; /* Cambia el 25px para hacerlo más o menos redondo */
+    border: none !important; /* Le quita la línea gris fea que a veces traen los bordes */
+    overflow: hidden; /* Asegura que el color de fondo no se salga por las esquinas */
+}
+
 
 .btn-success {
     background-color: #c5ccca !important;   /* !Important sirva para que sea prioridad en salir     */
     border: none; /* Elimina el borde predeterminado del botón */
 }
 .card-body{
-    background-color: #448f7a !important;
+    background-color: #0ac48f !important;
     border: none;
 }
 
 /* Ajuste para que el h1 no quede pegado al header fijo */
 body {
     background-color: antiquewhite !important;
+    border-radius: 10px;
+    border: 2px solid #659DBF;
     
+}
+.nav-link:hover {
+    
+    color: #448f7a !important; /* Color verde de la referencia */
+    border-radius: 10px;
+    border: 2px solid #659DBF;
 }
 .carousel-inner {
     display: flex;

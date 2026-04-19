@@ -45,12 +45,13 @@ input {
 /* Botón */
 button {
     margin: 5px auto;
-    background-color: antiquewhite !important;
-    color: #F2F2F2;
+    background-color: rgb(41, 145, 84) !important; /* Fondo del botón, color verde y bone */
+    color: #f2f2f2;
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 button:hover {
@@ -62,7 +63,7 @@ footer {
     margin: 20px auto;
     width: 100%;
     text-align: center;
-    background-color: antiquewhite !important;
+    background-color: rgb(31, 145, 107) !important;
     padding: 5px 0;
     display: flex;
     justify-content: center;
