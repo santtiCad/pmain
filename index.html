@@ -26,9 +26,9 @@
                     <span class="fw-bold" style="font-size: 1.2rem;">Fisio-Zen</span>
                 </a>
                 <ul class="nav justify-content-center mt-2">
-                    <li class="nav-item"><a class="nav-link p-2 text-dark fw-bold" href="#">Inicio</a></li> //pading el p-2 es para reducir el espacio entre los enlaces
-                    <li class="nav-item"><a class="nav-link p-2 text-dark fw-bold" href="#">Especialidades</a></li> //text-dark es para el color del texto, fw-bold para negrita
-                    <li class="nav-item"><a class="nav-link p-2 text-dark fw-bold" href="#">Beneficios</a></li>//fw-bold para negrita
+                    <li class="nav-item"><a class="nav-link p-2 text-dark fw-bold" href="#">Inicio</a></li> <!--pading el p-2 es para reducir el espacio entre los enlaces !-->
+                    <li class="nav-item"><a class="nav-link p-2 text-dark fw-bold" href="#">Especialidades</a></li> <!--text-dark es para el color del texto, fw-bold para negrita-->
+                    <li class="nav-item"><a class="nav-link p-2 text-dark fw-bold" href="#">Beneficios</a></li><!--fw-bold para negrita-->
                 </ul>
             </div>
 
@@ -36,7 +36,8 @@
                 <a href="login/agendamiento.html" class="btn btn-success rounded-pill px-4 fw-bold text-uppercase" style="font-size: 0.7rem;">
                     Agenda tu cita
                 </a>
-                    <a class="nav-link" href="login/iniciosesion.html">Iniciar Sesión</a>
+                    <a class="nav-link" href="login/iniciosesion.html">Iniciar Sesión</a> <!--href es para el enlace de inicio de sesión,
+                     rounded-pill para bordes redondeados, px-4 para padding horizontal y btn-success para el color del botón.-->
                 </li>
 
             </ul>
@@ -46,18 +47,18 @@
     <div>
         <br>
         <h1>
-            <span class="verde">Fisio</span>-<span class="morado">Zen</span>
+            <span class="verde">Fisio</span>-<span class="morado">Zen</span> <!--class verde y morado para el color del texto, el guion es para separar las palabras en el título-->
         </h1>
     </div>
     <p></p>
     <br>
     <section>
-        <div class="container mt-5">
-            <div class="d-flex gap-3">
-                <div class="card" style="width: 50%;">
-                    <div class="card-body">
-                        <h5 class="card-title">Recupera tu movimiento y bienestar</h5>
-                        <p class="card-text">
+        <div class="container mt-5"> <!--container es una clase de bootstrap para centrar el contenido y mt-5 para margen superior-->
+            <div class="d-flex gap-3"> <!--d-flex para crear un contenedor flexible y gap-3 para el espacio entre los elementos-->
+                <div class="card" style="width: 50%;"> <!--card es una clase de bootstrap para crear una tarjeta y width: 50% para que ocupe la mitad del ancho del contenedor-->
+                    <div class="card-body"> <!--card-body es una clase de bootstrap para el contenido de la tarjeta-->
+                        <h5 class="card-title">Recupera tu movimiento y bienestar</h5> <!--card-title es una clase de bootstrap para el título de la tarjeta-->
+                        <p class="card-text"> 
                             Realizamos tratamientos totalmente personalizados para aliviar el dolor,
                             mejorar tu movilidad y volver a la vida activa.
                         </p>
@@ -72,7 +73,8 @@
                             Podemos atender desde lesiones deportivas,
                             hasta tratamientos rehabilitantes.
                         </p>
-                        <div class="d-flex justify-content-between text-center mt-4">
+                        <div class="d-flex justify-content-between text-center mt-4"> <!--d-flex para crear un contenedor flexible, 
+            justify-content-between para distribuir los elementos con espacio entre ellos, text-center para centrar el texto y mt-4 para margen superior-->
                             <div>
                                 <h6>+60</h6>
                                 <p>Pacientes tratados</p>
@@ -96,9 +98,9 @@
             <p class="text-center">Cada plan de tratamiento se diseña individualmente para maximizar tu recuperación de
                 forma segura y eficaz.</p>
             <br>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
+            <div class="row g-4"> <!--row es una clase de bootstrap para crear una fila y g-4 para el espacio entre las columnas-->
+                <div class="col-md-6"> <!--col-md-6 es una clase de bootstrap para crear una columna que ocupe la mitad del ancho en dispositivos medianos y superiores-->
+                    <div class="card h-100 shadow-sm"> <!--card es una clase de bootstrap para crear una tarjeta, h-100 para que la tarjeta ocupe toda la altura disponible y shadow-sm para agregar una sombra ligera-->
                         <div class="card-body">
                             <h3 class="card-title"> Terapia física</h3>
                             <p class="card-text">Útiliza diversos ejercicios de movimiento y estiramientos según la parte del cuerpo y la afección a tratar.
@@ -106,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6"> 
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h3 class="card-title">Terapia Deportiva</h3>
@@ -143,38 +145,38 @@
         <br>
         <h3 class="text-center">Nuestro Trabajo</h3>
         <br>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> <!--carousel es una clase de bootstrap para crear un carrusel, slide para agregar la animación de deslizamiento y data-bs-ride="carousel" para activar el carrusel automáticamente-->
+            <div class="carousel-indicators"> <!--carousel-indicators es una clase de bootstrap para crear los indicadores del carrusel, cada button representa un indicador para cada slide del carrusel, data-bs-target="#carouselExampleCaptions" para indicar a qué carrusel pertenece el indicador, data-bs-slide-to="0" para indicar a qué slide se dirige el indicador, class="active" para marcar el indicador activo, aria-current="true" para indicar que el indicador actual es el activo y aria-label="Slide 1" para proporcionar una etiqueta accesible para el indicador-->
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" 
+                    aria-current="true" aria-label="Slide 1"></button> <!--button es para crear un botón, data-bs-target="#carouselExampleCaptions" para indicar a qué carrusel pertenece el botón, data-bs-slide-to="0" para indicar a qué slide se dirige el botón, class="active" para marcar el botón activo, aria-current="true" para indicar que el botón actual es el activo y aria-label="Slide 1" para proporcionar una etiqueta accesible para el botón-->
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
+                    aria-label="Slide 2"></button> <!--data-bs-target="#carouselExampleCaptions" para indicar a qué carrusel pertenece el botón, data-bs-slide-to="1" para indicar a qué slide se dirige el botón, aria-label="Slide 2" para proporcionar una etiqueta accesible para el botón-->
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="imga/deportiva.jpg" class="d-block w-100" alt="..." width="500px"
+            <div class="carousel-inner"> <!--carousel-inner es una clase de bootstrap para el contenedor de los slides del carrusel, cada div con class="carousel-item" representa un slide del carrusel, class="active" para marcar el slide activo, d-block para mostrar la imagen como un bloque y w-100 para que la imagen ocupe todo el ancho del contenedor-->
+                <div class="carousel-item active"> <!--div con class="carousel-item active" representa el primer slide del carrusel y lo marca como activo-->
+                    <img src="imga/deportiva.jpeg" class="d-block w-100" alt="..." width="500px"
                         height="500px">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block"> <!--carousel-caption es una clase de bootstrap para el contenedor de la leyenda del carrusel, d-none para ocultar la leyenda en dispositivos pequeños y d-md-block para mostrar la leyenda en dispositivos medianos y superiores-->
                         <h5>Fisioterapia Deportiva</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imga/fisica.jpg" class="d-block w-100" alt="..." width="500px"
+                    <img src="imga/sede.webp" class="d-block w-100" alt="..." width="500px"
                         height="500px">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Terapia Fisica</h5>
+                        <h5>Instalaciones</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imga/neuro.webp" class="d-block w-100" alt="..." width="500px" height="500px">
+                    <img src="imga/maquinas.webp" class="d-block w-100" alt="..." width="500px" height="500px">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Terapia Neurológica</h5>
+                        <h5>Maquinaria</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imga/electro.jpg" class="d-block w-100" alt="..." width="500px" height="500px">
+                    <img src="imga/electro.avif" class="d-block w-100" alt="..." width="500px" height="500px">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Electroterapia</h5>
                     </div>
@@ -192,16 +194,16 @@
             </button>
         </div>
     </section>
-    <section class="py-5">
+    <section class="py-5"> <!--py-5 es una clase de bootstrap para agregar padding vertical-->
         <div class="container">
             <h2 class="text-center mb-5">Tu Recuperación Paso a Paso</h2>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6"> <!--col-lg-3 para crear una columna que ocupe un cuarto del ancho en dispositivos grandes, col-md-6 para crear una columna que ocupe la mitad del ancho en dispositivos medianos-->
                     <div class="text-center">
                         <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mx-auto mb-3"
                             style="width: 70px; height: 70px; font-size: 1.8rem; font-weight: bold;">
                             01
-                        </div>
+                        </div> <!--bg-primary para el fondo del círculo, text-white para el color del texto, rounded-circle para hacer el círculo, d-inline-flex para crear un contenedor flexible en línea, align-items-center para centrar verticalmente los elementos, justify-content-center para centrar horizontalmente los elementos, mx-auto para centrar el círculo en el contenedor y mb-3 para margen inferior-->
                         <h4 class="mb-2">Evaluación Inicial</h4>
                         <p class="text-muted">Valoración completa de tu condición y objetivos.</p>
                     </div>
@@ -282,9 +284,9 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script> <!--script para el funcionamiento de los componentes de bootstrap, integrity para la integridad del recurso y crossorigin para permitir solicitudes de origen cruzado-->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

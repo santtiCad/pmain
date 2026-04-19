@@ -1,6 +1,6 @@
 .navbar {
    background-color: #4eecd7 !important; /* Blanco puro */
-    z-index: 1050 !important;
+    z-index: 1050 !important; /* Asegura que el navbar esté por encima de otros elementos */
     height: auto !important; /* Quita el 150px para que no se vea gigante y vacío */
     padding: 20px 0 ;
 }
@@ -12,12 +12,12 @@
 }
 
 .nav-link:hover {
-    text-decoration: underline !important;
+    text-decoration: underline !important; /* Subrayado al pasar el mouse */
 }
 
 .btn-success {
-    background-color: #c5ccca !important;
-    border: none;
+    background-color: #c5ccca !important;   /* !Important sirva para que sea prioridad en salir     */
+    border: none; /* Elimina el borde predeterminado del botón */
 }
 .card-body{
     background-color: #448f7a !important;
