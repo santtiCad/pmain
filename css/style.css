@@ -1,8 +1,8 @@
 .navbar {
    background-color: #4eecd7 !important; /* Blanco puro */
-    z-index: 1050 !important; /* Asegura que el navbar esté por encima de otros elementos */
-    height: auto !important; /* Quita el 150px para que no se vea gigante y vacío */
-    padding: 20px 0 ;
+    z-index: 10 !important; /* Asegura que el navbar esté por encima de otros elementos */
+    height: 150px !important; /* Quita el 150px para que no se vea gigante y vacío */
+    padding: 25px 0 ;
 }
 
 .nav-link {
@@ -29,6 +29,13 @@ body {
     background-color: antiquewhite !important;
     
 }
-.carousel-item {
+.carousel-inner {
+    display: flex;
     height: 550px; /* Ajusta la altura según tus necesidades */
+    scroll-snap-type: x mandatory;
+}
+.carousel-item {
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
 }
