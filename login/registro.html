@@ -18,11 +18,12 @@
    
         <h1>Registro</h1>
         <form action="">
+            <div class="flex-grow-1 "> <!--flex-grow-1 es una clase de bootstrap que permite que el elemento crezca para ocupar el espacio disponible en su contenedor, lo que ayuda a centrar el formulario verticalmente en la página.-->
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required><br><br>
 
             <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required><br><br>
+            <input type="text" id="apellido" name="apellido" required><br><br> <!--El atributo required en los campos de nombre, apellido, fecha de nacimiento, email, contraseña y confirmación de contraseña asegura que el formulario no se pueda enviar sin completar estos campos, lo que mejora la validación del lado del cliente y la experiencia del usuario.-->
 
             <label for="fnac">Fecha de Nacimiento:</label>
             <input type="date" id="fnac" name="fnac" required><br><br>
@@ -42,33 +43,34 @@
 
     </form>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> <!--El atributo type="module" en la etiqueta script indica que el archivo JavaScript es un módulo, lo que permite utilizar características de JavaScript modernas como importaciones y exportaciones, y mejora la organización del código.-->
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-<footer>
+    <footer>
 
     <!-- IZQUIERDA (flecha) -->
     <div class="izquierda">
-        <a href="iniciosesion.html">
+        <a href="iniciosesion.html"> <!--Enlace a la página de inicio de sesión, lo que permite a los usuarios regresar a esa página si ya tienen una cuenta o desean iniciar sesión después de registrarse.-->
             <ion-icon name="arrow-back"></ion-icon>
         </a>
     </div>
     <div>
-        <a href="agendamiento.html">Regresar a Agendamiento</a>
+        <a href="agendamiento.html">Regresar a Agendamiento</a> <!--Enlace a la página de agendamiento, lo que permite a los usuarios regresar a esa página si desean volver a agendar una cita después de registrarse.-->
     </div>
 
     <!-- DERECHA (redes) -->
     <ul class="redes">
-        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li> <!--Enlace a la página de Facebook, Instagram y TikTok de la empresa, lo que permite a los usuarios seguir la página de Facebook para obtener actualizaciones y noticias sobre la empresa.-->
         <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
         <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
     </ul>
 
 </footer>
+
+
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+</body>
 </html>
