@@ -50,8 +50,3 @@ body {
     height: 550px; /* Ajusta la altura según tus necesidades */
     scroll-snap-type: x mandatory;
 }
-.carousel-item {
-    flex: 0 0 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-}
