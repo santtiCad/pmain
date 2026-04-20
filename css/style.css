@@ -35,6 +35,7 @@
 /* Ajuste para que el h1 no quede pegado al header fijo */
 body {
     background-color: antiquewhite !important;
+    
 }
 .nav-link:hover {
     
@@ -46,4 +47,9 @@ body {
     display: flex;
     height: 550px; /* Ajusta la altura según tus necesidades */
     scroll-snap-type: x mandatory;
+}
+.carousel-item {
+    flex: 0 0 100%; /* Cada item ocupa el 100% del ancho del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio del item sin distorsionarse */
+    scroll-snap-align: center; /* Alinea cada item al centro del contenedor al hacer scroll */
 }
